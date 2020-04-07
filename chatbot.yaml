@@ -7,8 +7,3 @@ tests:
   include:
     - test.xml
 
-dependencies:
- - name: common
-   type: git
-   url: https://github.com/malltshik/justaibot
-   version: heads/master
