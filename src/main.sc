@@ -6,7 +6,7 @@ theme: /
     
     state: Operator
         q!: оператор
-        a: switch bitch
+        a: switch
         script:
             $response.replies.push({
                 type:"switch",
@@ -17,4 +17,4 @@ theme: /
             
     state:
         event: livechatFinished
-        a: Этот пидор вышел
+        a: He's left
